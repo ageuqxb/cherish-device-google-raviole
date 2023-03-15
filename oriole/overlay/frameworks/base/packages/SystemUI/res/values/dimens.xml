@@ -37,7 +37,7 @@
     <dimen name="system_icons_keyguard_padding_end">4.5dp</dimen>
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
+    <dimen name="keyguard_carrier_text_margin">8dp</dimen>
 
     <dimen name="config_rounded_mask_size">71px</dimen>
     <dimen name="config_rounded_mask_size_top">71px</dimen>
