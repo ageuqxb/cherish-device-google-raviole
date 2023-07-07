@@ -23,10 +23,16 @@ TARGET_BOOT_ANIMATION_RES := 1440
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/derp/config/device_framework_matrix.xml
 
+# DerpFest specific flags
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_BLUR := true
+
+# Pixel customization
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_oriole.mk)
