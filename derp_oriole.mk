@@ -33,9 +33,6 @@ $(call inherit-product, hardware/google/pixel/powershare/device.mk)
 $(call inherit-product, hardware/google/pixel/touch/device.mk)
 $(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
 
-# Properties
-TARGET_SYSTEM_PROP := device/google/raviole/system.prop
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := derp_oriole
 PRODUCT_MODEL := Pixel 6
