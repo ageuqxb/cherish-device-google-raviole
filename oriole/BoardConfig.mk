@@ -23,6 +23,9 @@ TARGET_BOARD_INFO_FILE := device/google/raviole/board-info.txt
 TARGET_BOOTLOADER_BOARD_NAME := oriole
 USES_DEVICE_GOOGLE_RAVIOLE := true
 BOARD_KERNEL_CMDLINE += disable_dma32=on
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+BUILD_BROKEN_DUP_RULES := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
 include device/google/gs101/BoardConfig-common.mk
 include device/google/gs101/wifi/BoardConfig-wifi.mk
