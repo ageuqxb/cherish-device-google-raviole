@@ -37,8 +37,8 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_oriole.mk)
-$(call inherit-product, hardware/google/pixel/powershare/device.mk)
-$(call inherit-product, hardware/google/pixel/touch/device.mk)
+$(call inherit-product, device/google/raviole/lineage/hals/powershare/device.mk)
+$(call inherit-product, device/google/raviole/lineage/hals/touch/device.mk)
 $(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
 
 ## Device identifier. This must come after all inclusions
